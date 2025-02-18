@@ -15,7 +15,7 @@ __all__ += _utils.__all__
 import warnings
 
 warnings.warn(
-    "The 'daft' package has been renamed to 'daft-pgm'. "
+    "The 'daft' package has been renamed to 'daft-pgm' and will be yanked from PYPI on 2025/03/03.\n"
     "Please uninstall 'daft' and install 'daft-pgm' instead using:\n"
     "    pip uninstall daft\n"
     "    pip install 'daft-pgm'",
