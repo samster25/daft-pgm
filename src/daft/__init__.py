@@ -12,3 +12,13 @@ __all__ = []
 __all__ += _core.__all__
 __all__ += _exceptions.__all__
 __all__ += _utils.__all__
+import warnings
+
+warnings.warn(
+    "The 'daft' package has been renamed to 'daft-pgm'. "
+    "Please uninstall 'daft' and install 'daft-pgm' instead using:\n"
+    "    pip uninstall daft\n"
+    "    pip install 'daft-pgm'",
+    DeprecationWarning,
+    stacklevel=2
+)
